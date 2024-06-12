@@ -46,7 +46,6 @@ const CreatePodcast = () => {
   );
   const [imageUrl, setImageUrl] = useState("");
 
-
   const [audioUrl, setAudioUrl] = useState("");
   const [audioStorageId, setAudioStorageId] = useState<Id<"_storage"> | null>(
     null
@@ -168,7 +167,7 @@ const CreatePodcast = () => {
             <GeneratePodcast
               setAudioStorageId={setAudioStorageId}
               setAudio={setAudioUrl}
-              voiceType={voiceType}
+              voiceType={voiceType!}
               audio={audioUrl}
               voicePrompt={voicePrompt}
               setVoicePrompt={setVoicePrompt}
