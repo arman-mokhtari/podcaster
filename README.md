@@ -2,8 +2,8 @@
 
 ## About
 
-👋 Welcome to our innovative Podcaster app!
-🚀 This app leverages AI-powered features such as text-to-multiple-voices functionality.
+👋 Welcome to our innovative Podcaster app!<br/>
+🚀 This app leverages AI-powered features such as text-to-multiple-voices functionality.<br/>
 🔧 Built with the latest technologies including Next.js 14, Clerk, ShadcnUi and Convex.
 
 ## Key Features
